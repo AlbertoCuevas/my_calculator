@@ -7,6 +7,12 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 
+function fourth() {
+
+ var num = document.getElementById("n2");
+ num.value = Math.pow(num.value, 4);
+}
+
 </script>
 </head>
 <body>
@@ -14,9 +20,10 @@ function cube() {
  Number:
 
  <input type="text" id="n1">
-
+<input type="text" id="n2">
  <p>
  <button onclick="cube()"> x^3 </button>
+ <button onclick="fourth()"> x^4 </button>
  </p>
 
 </body>
